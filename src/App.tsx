@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { 
-  Headphones, 
   Camera, 
   Wifi, 
   MapPin, 
@@ -17,6 +16,7 @@ import {
   X,
   Users
 } from 'lucide-react';
+import logoImage from './images/logo.jpeg';
 
 function App() {
   const [email, setEmail] = useState('');
@@ -72,7 +72,7 @@ function App() {
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center space-x-3">
-              <Headphones className="h-8 w-8 text-slate-700" aria-hidden="true" />
+              <img src={logoImage} alt="Around You Logo" className="h-8 w-8 rounded-full object-cover" />
               <div>
                 <h1 className="text-xl font-bold text-slate-900">Around You</h1>
                 <p className="text-xs text-slate-600 hidden sm:block">Your smart audio guide for every step</p>
@@ -412,7 +412,7 @@ function App() {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="lg:col-span-2">
               <div className="flex items-center space-x-3 mb-6">
-                <Headphones className="h-8 w-8 text-blue-400" aria-hidden="true" />
+                <img src={logoImage} alt="Around You Logo" className="h-8 w-8 rounded-full object-cover" />
                 <div>
                   <h3 className="text-xl font-bold">Around You</h3>
                   <p className="text-slate-400 text-sm">by ProPath Innovations</p>
