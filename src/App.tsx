@@ -14,7 +14,8 @@ import {
   Mail,
   Menu,
   X,
-  Users
+  Users,
+  Headphones
 } from 'lucide-react';
 import logoImage from './images/logo.jpeg';
 
