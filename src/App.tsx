@@ -17,7 +17,7 @@ import {
   Users,
   Headphones
 } from 'lucide-react';
-import lentsImage from './images/lents.jpeg';
+import lentsImage from './images/Lents.jpeg';
 import logoImage from './images/logo.jpeg';
 
 function App() {
