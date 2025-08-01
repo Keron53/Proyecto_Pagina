@@ -84,7 +84,6 @@ function App() {
                 <h1 className="text-xl font-bold text-slate-900">Around You</h1>
                 <p className="text-xs text-slate-600 hidden sm:block">Your smart audio guide for every step</p>
               </div>
-            </div>
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
