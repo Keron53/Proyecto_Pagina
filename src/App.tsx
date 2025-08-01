@@ -206,7 +206,7 @@ function App() {
   <img
     src={lentsImage}
     alt="Lents"
-    className="w-full h-full object-cover"
+    className="h-full max-w-full object-contain"
   />
 </div>
 
