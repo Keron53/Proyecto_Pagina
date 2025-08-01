@@ -79,7 +79,7 @@ function App() {
     alt="Lents"
     className="w-full h-full object-cover"
   />
-</div>
+</div> 
 
                 <h1 className="text-xl font-bold text-slate-900">Around You</h1>
                 <p className="text-xs text-slate-600 hidden sm:block">Your smart audio guide for every step</p>
