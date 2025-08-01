@@ -73,17 +73,13 @@ function App() {
       <header className="bg-white shadow-sm sticky top-0 z-50">
         <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-<div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl h-96 overflow-hidden">
-  <img
-    src={lentsImage}
-    alt="Lents"
-    className="w-full h-full object-cover"
-  />
-</div> 
-
+            <div className="flex items-center space-x-3">
+              <img src={logoImage} alt="Around You Logo" className="h-8 w-8 rounded-full object-cover" />
+              <div>
                 <h1 className="text-xl font-bold text-slate-900">Around You</h1>
                 <p className="text-xs text-slate-600 hidden sm:block">Your smart audio guide for every step</p>
               </div>
+            </div>
             
             {/* Desktop Navigation */}
             <div className="hidden md:flex space-x-8">
@@ -101,6 +97,7 @@ function App() {
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
+          </div>
 
           {/* Mobile Navigation */}
           {isMenuOpen && (
@@ -205,9 +202,14 @@ function App() {
                 </div>
               </div>
 
-              <div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl p-8 h-96 flex items-center justify-center">
-                <img src={lentsImage} alt="Lents" className="h-24 w-24 mx-auto mb-4" />
-               </div>
+<div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl h-96 overflow-hidden">
+  <img
+    src={lentsImage}
+    alt="Lents"
+    className="w-full h-full object-cover"
+  />
+</div>
+
             </div>
           </div>
         </div>
