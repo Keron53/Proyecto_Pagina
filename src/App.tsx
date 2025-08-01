@@ -204,8 +204,7 @@ function App() {
 
               <div className="bg-gradient-to-br from-slate-100 to-slate-200 rounded-2xl p-8 h-96 flex items-center justify-center">
                 <img src={lentsImage} alt="Lents" className="h-24 w-24 mx-auto mb-4" />
-                </div>
-              </div>
+               </div>
             </div>
           </div>
         </div>
